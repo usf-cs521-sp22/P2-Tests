@@ -14,7 +14,7 @@ fi
 sort_opts=(-k2n -k1r)
 if [[ -n "${2}" ]]; then
     if [[ "${2}" == "age" ]]; then
-        sort_opts=(-k3nr -k1d)
+        sort_opts=(-k3nr -k1r)
     fi
 fi
 
